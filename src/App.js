@@ -1,8 +1,15 @@
 import React from 'react';
-import './index.css';
+
+import Header from './components/Header';
+import MemeGenerator from './components/MemeGenerator';
 
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <main>
+      <Header />
+      <MemeGenerator />
+    </main>
+  );
 }
 
 export default App;
